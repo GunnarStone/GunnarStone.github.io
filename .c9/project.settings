@@ -1,4 +1,7 @@
 {
+    "ace": {
+        "@useSoftTabs": true
+    },
     "instance": {
         "@automaticShutdown": "60"
     },

@@ -3,8 +3,44 @@
 <head>
 <title>Home</title>
 <style>
-    
-    
+    * {
+     
+    }
+    .navbar {
+        list-style:none;
+        background-color:orange;
+        overflow: hidden;
+        padding:0;
+    }
+    .navbar a{
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
+    .navbar li{
+        float:left;
+        border-radius: 3px;
+    } 
+    .navbar li:hover{
+        background-color:Grey;
+    }
+    .dropdown-cnt{
+        list-style:none;
+        padding:0;
+    }
+    .dropdown-cnt li{
+        float:none;
+        padding:0;
+    }
+    .navbar a, dropdown div {
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
     
 </style>
 </head>
@@ -13,6 +49,14 @@
         <li><a href="https://www.google.com">Google</a></li>
         <li><a href="https://www.bing.com">Bing</a></li>
         <li><a href="http://onemillionlols.com/">OneMillionLols</a></li>
+        <li class="dropdown">
+            <div>More Links</div>
+            <ul class="dropdown-cnt">
+                <li><a href="#">Project One</a></li>
+                <li><a href="#">Project Two</a></li>
+                <li><a href="#">Project Three</a></li>
+            </ul>
+        </li>
     </ul>
 
 </body>
