@@ -1,0 +1,106 @@
+    
+    .navbar {
+        list-style:none;
+        background-color:Black;
+        overflow: hidden;
+        padding:0;
+    }
+    .navbar a{
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
+    .navbar li{
+        float:left;
+        border-radius: 5px;
+    } 
+    .navbar li:hover{
+        background-color:Black;
+    }
+    .dropdown-cnt{
+        list-style:none;
+        padding:0;
+        display:none;
+    }
+    .dropdown-cnt li{
+        float:none;
+        padding:0;
+    }
+    .navbar a, dropdown div {
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
+    .youre-Special{
+        font-size: 25px;
+        padding:16px;
+        color:white;
+        display:inline-block;
+    }
+    .dropdown:hover .dropdown-cnt{
+        display:block;
+    }
+    .navbar a:hover{
+        background-color:White;
+        color:black;
+    }
+    .active {
+        background-color:blue;
+    }
+        .navbar {
+        list-style:none;
+        background-color:Black;
+        overflow: hidden;
+        padding:0;
+    }
+    .navbar a{
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
+    .navbar li{
+        float:left;
+        border-radius: 5px;
+    } 
+    .navbar li:hover{
+        background-color:Black;
+    }
+    .dropdown-cnt{
+        list-style:none;
+        padding:0;
+        display:none;
+    }
+    .dropdown-cnt li{
+        float:none;
+        padding:0;
+    }
+    .navbar a, dropdown div {
+        text-decoration:none;
+        color:white;
+        font-size:24px;
+        padding:16px;
+        display: inline-block; 
+    }
+    .youre-Special{
+        font-size: 25px;
+        padding:16px;
+        color:white;
+        display:inline-block;
+    }
+    .dropdown:hover .dropdown-cnt{
+        display:block;
+    }
+    .navbar a:hover{
+        background-color:White;
+        color:black;
+    }
+    .active{
+        background-color:blue;
+    }
+    
