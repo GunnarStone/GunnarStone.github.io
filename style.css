@@ -14,7 +14,6 @@
     }
     .navbar li{
         float:left;
-        border-radius: 5px;
     } 
     .navbar li:hover{
         background-color:Black;
@@ -47,6 +46,7 @@
     .navbar a:hover{
         background-color:White;
         color:black;
+        
     }
     .active {
         background-color:blue;
@@ -66,7 +66,6 @@
     }
     .navbar li{
         float:left;
-        border-radius: 5px;
     } 
     .navbar li:hover{
         background-color:Black;
@@ -103,4 +102,17 @@
     .active{
         background-color:blue;
     }
-    
+    .youreOmegaSpecial{
+        background-color:blue;
+        font-size: 25px;
+        padding:16px;
+        color:white;
+        display:inline-block;
+    }
+    .heyKid-yourePrettySpecial{
+        background-color:blue;
+    }
+    body { 
+          background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBgkIBxARBgYGBw0PBgYGEA8IDRANFBEWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIANgA6QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAABAMBB//EABUQAQEAAAAAAAAAAAAAAAAAAAAS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APY7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYJ7LdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QH/9k=) no-repeat center fixed; 
+          background-size: cover;
+        }
