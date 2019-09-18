@@ -125,3 +125,10 @@
     .centerh1tag{
         text-align: center;
     }
+    .center {
+        text-align:center;
+    }
+    #footerColor{
+        background-color:black;
+        color:white;
+    }
