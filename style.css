@@ -13,7 +13,7 @@
         display: inline-block; 
     }
     .navbar li{
-        float:left;
+        float:right;
     } 
     .navbar li:hover{
         background-color:Black;
@@ -65,7 +65,7 @@
         display: inline-block; 
     }
     .navbar li{
-        float:left;
+        float:Right;
     } 
     .navbar li:hover{
         background-color:Black;
@@ -120,10 +120,12 @@
         color:white;
         font-size: 25px; 
         padding:16px;
-        display:inline-block;
+
+        float:left;
     }
     .centerh1tag{
         text-align: center;
+        font-weight: bold;
     }
     .center {
         text-align:center;
