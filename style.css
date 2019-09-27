@@ -1,4 +1,4 @@
-    
+
     .navbar {
         list-style:none;
         background-color:Black;
@@ -10,11 +10,11 @@
         color:white;
         font-size:24px;
         padding:16px;
-        display: inline-block; 
+        display: inline-block;
     }
     .navbar li{
         float:right;
-    } 
+    }
     .navbar li:hover{
         background-color:Black;
     }
@@ -32,7 +32,7 @@
         color:white;
         font-size:24px;
         padding:16px;
-        display: inline-block; 
+        display: inline-block;
     }
     .youre-Special{
         font-size: 25px;
@@ -46,7 +46,7 @@
     .navbar a:hover{
         background-color:White;
         color:black;
-        
+
     }
     .active {
         background-color:blue;
@@ -62,11 +62,11 @@
         color:white;
         font-size:24px;
         padding:16px;
-        display: inline-block; 
+        display: inline-block;
     }
     .navbar li{
         float:Right;
-    } 
+    }
     .navbar li:hover{
         background-color:Black;
     }
@@ -84,7 +84,7 @@
         color:white;
         font-size:24px;
         padding:16px;
-        display: inline-block; 
+        display: inline-block;
     }
     .youre-Special{
         font-size: 25px;
@@ -112,13 +112,14 @@
     .heyKid-yourePrettySpecial{
         background-color:blue;
     }
-    body { 
-          background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBgkIBxARBgYGBw0PBgYGEA8IDRANFBEWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIANgA6QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAABAMBB//EABUQAQEAAAAAAAAAAAAAAAAAAAAS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APY7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYN7LYWWDey2Flg3sthZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYJ7LT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYKLLT2WCiy09lgostPZYMKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYKKKT2WCiik9lgoopPZYJ7LdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QHLLdAcst0Byy3QH/9k=) no-repeat center fixed; 
+    body {
+          background: url(./images/GarfOne);
           background-size: cover;
+          font-family: 'Julius Sans One';font-size: 22px;
         }
     #me {
         color:white;
-        font-size: 25px; 
+        font-size: 25px;
         padding:16px;
 
         float:left;
@@ -138,4 +139,7 @@
     }
     #centerTheThingy {
         text-align:center;
+    }
+    head{
+        font-family: 'Julius Sans One';font-size: 22px;
     }
