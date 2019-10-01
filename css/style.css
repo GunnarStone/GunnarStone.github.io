@@ -113,7 +113,7 @@
         background-color:blue;
     }
     body {
-          background: url(./images/GarfOne);
+          background: url(./images/garf.jpeg);
           background-size: cover;
           font-family: 'Julius Sans One';font-size: 22px;
         }
@@ -143,3 +143,6 @@
     head{
         font-family: 'Julius Sans One';font-size: 22px;
     }
+.tpose {
+  transform: rotate(90deg);
+}
