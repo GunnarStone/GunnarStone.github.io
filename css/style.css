@@ -65,7 +65,7 @@
         display: inline-block;
     }
     .navbar li{
-        float:Right;
+        float:left;
     }
     .navbar li:hover{
         background-color:Black;
@@ -116,6 +116,7 @@
           background: url(./images/garf.jpeg);
           background-size: cover;
           font-family: 'Julius Sans One';font-size: 22px;
+          background-color:	#696969;
         }
     #me {
         color:white;
