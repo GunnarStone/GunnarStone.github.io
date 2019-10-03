@@ -147,3 +147,6 @@
 .tpose {
   transform: rotate(90deg);
 }
+.bold{
+    font-weight: bold;
+}
