@@ -182,6 +182,20 @@ var pic = document.getElementById('storyimg');
         b3.style.display = "none";
         b4.style.display = "none"; 
     }
+        function shortDistance(){
+        pic.src = "images/desert.png.jpg";
+        ptext1.innerHTML = "You find nothing. Do you choose to walk farther?";
+        ptext2.innerHTML = "";
+        ptext3.innerHTML = "";
+        ptext4.innerHTML = "";
+        b1.innerHTML = "Dont Walk Further";
+        b2.innerHTML = "Choose To Walk Further";
+        b3.innerHTML = "";
+        b1.style.display = "block";
+        b2.style.display = "block";
+        b3.style.display = "none";
+        b4.style.display = "none"; 
+    }
 
     //state machine
     function bclick(button){
@@ -200,6 +214,12 @@ var pic = document.getElementById('storyimg');
                 intro();
                 state = "intro"
             }
+         else if(state == "lookForCivilization"){
+            if (button == 2){
+                shortDistance();
+                state = "shortDistance"
+            }
+         }
         return false;
     }
 
