@@ -183,7 +183,7 @@ var pic = document.getElementById('storyimg');
         b4.style.display = "none"; 
     }
         function shortDistance(){
-        pic.src = "images/desert.png.jpg";
+        pic.src = "images/desert.png";
         ptext1.innerHTML = "You find nothing. Do you choose to walk farther?";
         ptext2.innerHTML = "";
         ptext3.innerHTML = "";
@@ -193,6 +193,48 @@ var pic = document.getElementById('storyimg');
         b3.innerHTML = "";
         b1.style.display = "block";
         b2.style.display = "block";
+        b3.style.display = "none";
+        b4.style.display = "none"; 
+    }
+        function longDistance(){
+        pic.src = "images/village.jpg";
+        ptext1.innerHTML = "You find a village nearby. The villagers there give you a quest to kill the ender dragon which has been terrorizing their village. Do you accept?";
+        ptext2.innerHTML = "";
+        ptext3.innerHTML = "";
+        ptext4.innerHTML = "";
+        b1.innerHTML = "Accept";
+        b2.innerHTML = "Decline";
+        b3.innerHTML = "";
+        b1.style.display = "block";
+        b2.style.display = "block";
+        b3.style.display = "none";
+        b4.style.display = "none"; 
+    }        
+        function liveInWorld(){
+        pic.src = "images/oof.jpg";
+        ptext1.innerHTML = "You live but you never go to the normal world again.";
+        ptext2.innerHTML = "";
+        ptext3.innerHTML = "";
+        ptext4.innerHTML = "";
+        b1.innerHTML = "Play Again?";
+        b2.innerHTML = "";
+        b3.innerHTML = "";
+        b1.style.display = "block";
+        b2.style.display = "none";
+        b3.style.display = "none";
+        b4.style.display = "none"; 
+    }
+        function chooseYourWeapon(){
+        pic.src = "images/large_thumbnail.jpg";
+        ptext1.innerHTML = "You live but you never go to the normal world again.";
+        ptext2.innerHTML = "";
+        ptext3.innerHTML = "";
+        ptext4.innerHTML = "";
+        b1.innerHTML = "Play Again?";
+        b2.innerHTML = "";
+        b3.innerHTML = "";
+        b1.style.display = "block";
+        b2.style.display = "none";
         b3.style.display = "none";
         b4.style.display = "none"; 
     }
@@ -209,16 +251,44 @@ var pic = document.getElementById('storyimg');
                 state = "lookForCivilization"
             }
         }
-         else if(state == "stayTheNightDead1")
-            if (button == 1){
+         else if(state == "stayTheNightDead1"){
+             if (button == 1){
                 intro();
                 state = "intro"
             }
+         }
          else if(state == "lookForCivilization"){
-            if (button == 2){
-                shortDistance();
-                state = "shortDistance"
+             if (button == 2){
+                   shortDistance();
+                   state = "shortDistance"
+             }else if (button == 1){
+                 longDistance();
+                 state = "longDistance"
+             }
+         }
+        else if(state == "shortDistance"){
+             if (button == 2){
+                   longDistance();
+                   state = "longDistance"
+             }else if (button == 1){
+                    liveInWorld();
+                    state = "liveInWorld"
+             }
+         }
+        else if(state == "liveInWorld"){
+             if (button == 1){
+                intro();
+                state = "intro"
             }
+         }
+        else if(state == "longDistance"){
+             if (button == 1){
+                   longDistance();
+                   state = "longDistance"
+             }else if (button == 2){
+                    liveInWorld();
+                    state = "liveInWorld"
+             }
          }
         return false;
     }
